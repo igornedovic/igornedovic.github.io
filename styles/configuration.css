@@ -1,0 +1,139 @@
+
+/* OSNOVNA PODESAVANJA*/
+
+
+/*
+    Boja slova-bela: rgb(221, 217, 217)
+    Belo-siva boja: rgb(241, 236, 236);
+    Crvena boja: #c3002f
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    overflow-x: hidden;
+    scroll-behavior: smooth; /* ispolji se kada se klikne na dugme povratak na vrh*/
+}
+
+/*-----------------HEADER NA SVIM STRANICAMA SEM POCETNE------------------*/
+
+
+.header {
+    height: 15vh;
+    background-color: rgb(102, 100, 100);
+}
+
+.header .logo {
+    height: 70px;
+}
+
+
+/*------------------GLAVNI MENI-------------------*/
+
+.logo {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%; /*80% od 17px*/
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+.main-nav li a:hover {
+    border-bottom: 2px solid #c3002f;
+}
+
+.nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-icon i {
+    font-size: 200%;
+    color: rgb(255, 251, 251);
+}
+
+
+/*-------------------NASLOVI-------------------*/
+
+h2 {
+    color: rgb(221, 217, 217);
+    font-size: 150%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+/*------------------POZICIONIRANJE------------------------*/
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto; /*gore-dole 0 ; levo-desno auto*/
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(12,1fr); /* deli u 12 fragmenata */
+}
+
+.kolona2{
+    grid-column: span 2;
+}
+
+.kolona3{
+    grid-column: span 3;
+}
+
+.kolona4{
+    grid-column: span 4;
+}
+
+.kolona5 {
+    grid-column: span 5;
+}
+
+.kolona6 {
+    grid-column: span 6;
+}
+
+.kolona7 {
+    grid-column: span 7;
+}
+
+.kolona8{
+    grid-column: span 8;
+}
+
+.kolona12{
+    grid-column: span 12;
+}

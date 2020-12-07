@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------------------*/
+/*                                  SERVIS I OPREMA                        */
+
+h2 {
+    color: #c3002f;
+    margin-top: 30px;
+}
+
+.sivi-div {
+    background-color: rgba(231, 231, 231, 0.959);
+    height: 72vh;
+}
+
+.nase-usluge {
+    list-style: none;
+}
+
+.nase-usluge li {
+    display: inline-block;
+    width: 24%;
+    height: 120px;
+    background-color: rgba(231, 231, 231, 0.959);
+    
+}
+
+.nase-usluge li i {
+    padding-top: 40px;
+    padding-left: 150px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(128, 125, 125); 
+}
+
+.nase-usluge li p {
+    padding-left: 30px;
+    text-align: center;
+    color: rgb(128, 125, 125);
+}
+
+.nase-usluge li:hover{
+    background-color: #c3002f;
+    transition: 0.2s;
+}
+
+.nase-usluge li:hover i{
+    color: white;
+    transition: 0.2s;
+}
+
+.nase-usluge li:hover p{
+    color: white;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+

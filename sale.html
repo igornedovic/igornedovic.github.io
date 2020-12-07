@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autokomerc - Prodaja</title>
+    <link rel="stylesheet" href="styles/configuration.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/style-sale.css">
+    <script src="https://kit.fontawesome.com/91974343e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="row">
+                <a href="index.html"><img src="images/logo.png" alt="Autokomerc logo" class="logo"></a>
+
+                <ul class="main-nav main-nav-jquery">
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="about.html">O nama</a></li>
+                    <li><a href="sale.html">Prodaja vozila</a></li>
+                    <li><a href="service.html">Servis i oprema</a></li>
+                    <li><a href="news.html">Novosti</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+                <a class="nav-icon nav-icon-jquery"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="pozadina-prodaja">
+        <div class="prodaja-tekst">
+            <h2>
+                Najbrži put do novog vozila!
+            </h2>
+            <p>
+                Pogledaj aktuelnu ponudu
+            </p>
+            <i class="fas fa-angle-double-down"></i>
+        </div>
+    </div>
+
+    <div class="ponuda">
+        <div class="grid-row row">
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/audiQ3.jpg" alt="">
+                    <p class="model">Audi Q3<br>3.0 TDI Quattro</p>
+                    <p class="cena">53.900 &euro;</p>
+                </div>
+            </div>
+
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/audiA6.jpg" alt="">
+                    <p class="model">Audi A6<br>2.0 TDI Quattro S Line</p>
+                    <p class="cena">52.490 &euro;</p>
+                </div>
+            </div>
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/audiA8.jpg" alt="">
+                    <p class="model">Audi A8<br>3.0 TDI Long Hybrid</p>
+                    <p class="cena">79.990 &euro;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-row row">
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/BMW420.jpg" alt="">
+                    <p class="model">BMW 420<br>2.0 xDrive Automatik</p>
+                    <p class="cena">25.890 &euro;</p>
+                </div>
+            </div>
+
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/Golf7.jpg" alt="">
+                    <p class="model">Volkswagen Golf 7<br>1.6 TDI Comfortline</p>
+                    <p class="cena">13.990 &euro;</p>
+                </div>
+            </div>
+            <div class="kolona4">
+                <div class="kartica">
+                    <img src="images/Polo.jpg" alt="">
+                    <p class="model">Volkswagen Polo<br>1.0 MPI</p>
+                    <p class="cena">7.890 &euro;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="dugme-vrh" onclick="povratakNaVrh()">Povratak na vrh</button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="jQuery/script-meni.js"></script>
+    <script src="jQuery/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------------------*/
+/*                                  PRODAJA VOZILA                          */
+
+
+.pozadina-prodaja {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.6),rgba(20, 20, 20, 0.6)), url("../images/pozadinaProdaja.jpg");;
+    background-size: cover;
+    background-position: center; 
+    height: 85vh; 
+}
+
+.prodaja-tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(221, 217, 217);
+    text-align: center;
+    
+}
+
+.prodaja-tekst h2 {
+    font-size: 230%;
+}
+
+.prodaja-tekst p {
+    font-size: 180%;
+}
+
+.prodaja-tekst i {
+    margin-top: 50px;
+    font-size: 600%;
+    color: rgb(221, 217, 217);
+}
+
+.ponuda{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.kartica {
+    background-color: rgb(241, 236, 236);
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 0 2px 2px rgb(189, 188, 188);
+              /*x-osa y-osa zamucenje boja*/
+    margin-bottom: 40px;
+}
+
+.kartica:hover{
+    box-shadow: 0 10px 10px rgba(189, 188, 188, 0.966);
+}
+
+.kartica img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;
+    width: 80%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.kartica p {
+    padding-left: 40px;
+    margin-top: 10px;
+    color: #c3002f;
+    font-size: 100%;
+}
+
+.kartica p:last-child{
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.dugme-vrh {
+    position: absolute;
+    top: 205%; /*pozicioniranje u odnosu na gornju ivicu prve strane*/
+    left: 45%;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid #c3002f;
+    border-radius: 5px;
+    color:white;
+    background-color: #c3002f;
+    transition: 0.2s;
+}
+
+.dugme-vrh:hover {
+    background-color: white;
+    color: #c3002f;
+}

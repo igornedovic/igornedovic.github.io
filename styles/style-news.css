@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------------------*/
+/*                                  NOVOSTI                                 */
+
+
+h2 {
+    color: #c3002f;
+    margin-top: 30px;
+}
+
+#vreme {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+
+.novosti-row {
+    margin-bottom: 25px;
+}
+
+.vest-slika img {
+    height: 180px;
+}
+
+.vest-tekst {
+    margin-left: 80px;
+}
+
+.vest-tekst h4,i,p {
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #c3002f;
+}
+
+i {
+    color: rgb(128, 125, 125);
+}
+
+p {
+    font-size: 112%;
+}

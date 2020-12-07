@@ -1,0 +1,295 @@
+
+@media only screen and (max-width: 1280px) {
+    
+    .row {
+        max-width: 1140px;
+    }
+
+    /* index stranica */
+    .upoznaj-audi {
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+
+    /* news stranica */
+    .vest-tekst {
+        padding-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1140px) {
+    
+    html {
+        font-size: 15px;
+    }
+
+    .row {
+        max-width: 1000px;
+    }
+
+    .upoznaj-audi {
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+
+    .copyright p {
+        margin-left: 200px;
+    }
+
+    /* about stranica */
+    .kolona8 img {
+        width: 700px;
+    }
+
+    /* service stranica */
+    .nase-usluge li {
+        padding-right: 50px;
+    }
+
+    .nase-usluge li i {
+        position: relative;
+        top: 5%;
+        right: 30%;
+        
+    } 
+
+    .vest-slika img {
+        height: 160px;
+    }
+
+    .vest-tekst {
+        padding-left: 30px;
+        font-size: 95%;
+    }
+
+    /* contact stranica */
+    .kontakt-podaci {
+        padding-top: 10px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+    .row {
+        max-width: 950px;
+    }
+
+    .novosti-row .vest-slika img {
+        height: 170px;
+    }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+    /* podesavanje hedera index stranice */
+    header .logo {
+        height: 70px;
+    }
+
+    header .main-nav li {
+        margin-left: 20px;
+    }
+
+    /* podesavanje hedera ostalih stranica */
+    .main-nav li {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    html {
+        font-size: 13px;
+    }
+
+    .upoznaj-audi {
+        padding: 0 25%;
+    }
+
+    .novosti-row .vest-slika img {
+        height: 150px;
+    }
+
+    .novosti-row .vest-tekst h4,i,p {
+        margin-bottom: 1px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+
+   
+    header .upoznaj-audi {
+        width: 1000px;
+    }
+
+    .copyright p {
+        margin-left: 50%;
+    }
+
+    .o-nama div {
+        display: block;
+    }
+
+    /* slika na about stranici */
+    .kolona8 img {
+        margin-left: 5px;
+    }
+
+
+    .nase-usluge li i {
+        position: relative;
+        top: 5%;
+        right: 60%;
+    } 
+
+    .novosti-row .vest-slika img {
+        height: 150px;
+    }
+
+    .novosti-row .vest-tekst h4,i,p {
+        margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .main-nav {
+        display: none;
+    }
+
+    .nav-icon {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+   
+    /* podesavanje menija sa ikonicom na index stranici */
+    header .main-nav {
+        float: left;
+        margin-top: 0;
+        margin-left: 130px;
+    }
+
+    header .main-nav li {
+        display: block;
+    }
+
+    header .main-nav li a:link,
+    header .main-nav li a:visited {
+        display: block;
+        border: 0; /* jer ne mozemo hover */
+        padding: 3px 0;
+        font-size: 80%;
+    }
+
+
+    /* podesavanje menija sa ikonicom na ostalim stranicama */
+    header .header .main-nav {
+        float: left;
+        margin-top: 0;
+        margin-left: 130px;
+    }
+
+    header .header .main-nav li {
+        display: block;
+    }
+
+    header .header .main-nav li a:link,
+    header .header .main-nav li a:visited {
+        display: block;
+        border: 0; /* jer ne mozemo hover */
+        padding: 3px 0;
+        font-size: 80%;
+    }
+
+
+    .novosti-row div {
+        display: block;
+    }
+
+    .novosti-row .vest-slika img {
+        width: 80%;
+        padding-left: 20%;
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header .upoznaj-audi {
+        width: 850px;
+    }
+
+    header .upoznaj-audi h2 {
+        text-align: left;
+    }
+
+    .copyright p {
+        margin-left: 70%;
+    }
+
+    .kolona8 img {
+        width: 100%;
+    }
+
+    .ponuda div {
+        display: block;
+    }
+    
+    .ponuda .kartica {
+        margin-left: 30px;
+    }
+    
+    .dugme-vrh {
+        display: none;
+    }
+
+    .nase-usluge li i {
+        right: 130%;
+    }
+
+
+   .row h2 {
+       text-align: center;
+   }
+
+   
+}
+
+@media only screen and (max-width: 500px) {
+
+    header .upoznaj-audi {
+        width: 750px;
+    }
+
+    
+    .nase-usluge li i {
+        right: 170%;
+    }
+
+
+    .kontakt .kontakt-forma .kolona8 {
+        width: 250px;
+    } 
+
+
+
+    
+}
+
+
+

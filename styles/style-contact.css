@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------------------*/
+/*                                  KONTAKT                                 */
+
+
+h2 {
+    color: #c3002f;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    width: 60%;
+    margin: 20px auto;
+}
+
+/*----------------------FORM--------------------*/
+
+.kontakt-forma {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px; 
+    border-radius: 3px;
+    border: 1px solid rgb(204, 203, 203);
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox],
+input[type=radio]  {
+    margin: 0 6px 20px 0;
+    color: #c3002f;
+} 
+
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid #c3002f;
+    border-radius: 5px;
+    color:white;
+    background-color: #c3002f;
+    transition: 0.2s;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #c3002f;
+}
+
+
+/*-----------------FOOTER----------------*/
+
+.footer {
+    height: 15vh;
+    background-color: rgb(102, 100, 100);
+}
+
+.radno-vreme {
+    padding-top: 10px;
+    color: rgb(255, 251, 251);
+}
+
+.kontakt-podaci {
+    list-style: none;
+    float: right;
+}
+
+.kontakt-podaci li {
+    color: rgb(255, 251, 251);
+}
+
+.kontakt-podaci li:hover {
+    color: #c3002f;
+}
+
+a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c3002f;;
+}
